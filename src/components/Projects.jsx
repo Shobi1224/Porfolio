@@ -1,6 +1,15 @@
-import { projects } from "../data.js";
+import { useEffect, useState } from "react";
 
 export default function Projects() {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    fetch("/api/projects")
+      .then((res) => res.json())
+      .then((data) => setProjects(data))
+      .catch((err) => console.error(err));
+  }, []);
+
   return (
     <section id="projects" className="section">
       <div className="container">
@@ -11,7 +20,7 @@ export default function Projects() {
 
         <div className="grid">
           {projects.map((p) => (
-            <article key={p.title} className="card">
+            <article key={p._id} className="card">
               <div className="card__media">
                 <div className="code-icon">&lt;&gt;</div>
               </div>

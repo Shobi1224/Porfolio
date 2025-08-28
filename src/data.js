@@ -17,14 +17,14 @@ export const skills = [
 ];
 
 export const projects = [
-    {
-      title: "Dynamic QuizApp",
-      description:
-        "A dynamic QuizApp tailored for each user in a game mode to buid a motivated learning experience.",
-      stack: ["Html","CSS","JavaScript","Springboot"],
-      demo: "",
-      code: "https://github.com/your-username/ecommerce",
-    },
+  {
+    title: "Dynamic QuizApp",
+    description:
+      "A dynamic QuizApp tailored for each user in a game mode to buid a motivated learning experience.",
+    stack: ["Html", "CSS", "JavaScript", "Springboot"],
+    demo: "",
+    code: "https://github.com/Shobi1224/DynamicQuizApp.git",
+  },
   {
     title: "Bus Reservation System",
     description:
@@ -46,6 +46,6 @@ export const projects = [
       "This site — clean, responsive, and fast. Built with React + Vite.",
     stack: ["React", "Vite", "CSS"],
     demo: "",
-    code: "https://github.com/Shobi1224/portfolio",
+    code: "https://github.com/Shobi1224/Porfolio.git",
   },
 ];
