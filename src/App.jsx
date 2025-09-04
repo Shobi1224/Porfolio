@@ -6,6 +6,7 @@ import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
+import ContactForm from "./components/ContactForm.jsx";
 
 import AdminPanel from "./admin/AdminPanel.jsx"; // 👈 new page
 
@@ -24,6 +25,7 @@ export default function App() {
                 <Skills />
                 <Projects />
                 <Contact />
+                <ContactForm />
               </main>
               <Footer />
             </>

@@ -9,12 +9,12 @@ export default function Contact() {
         </p>
 
         <div className="cta">
-          <a className="btn primary" href="mailto:your.email@example.com">
+          <a className="btn primary" href="mailto:shobidass1224@gmail.com">
             <span className="btn__icon">✉</span> Send Email
           </a>
           <a
             className="btn outline"
-            href="https://www.linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/shobiga-y-b6b5b8257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noreferrer"
           >
